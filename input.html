@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type ="text" id="firstname" placeholder="name" required/>
+    <input type ="email"/>
+    <input type ="number" required/>
+    <select>
+        <option value="">select your gender</option>
+        <option value="">male</option>
+        <option value="">female</option>
+    </select>
+    <button onclick="work()">submit</button>
+    <script>
+        function work(){
+            var firstname=document.getElementById("firstname").value
+            console.log(firstname)
+        }
+    </script>
+</body>
+</html>
